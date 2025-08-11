@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bonus Salus – Bienestar natural</title>
+  <!-- Tipografías -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+  <!-- CSS externo -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header id="inicio">
+    <div class="container nav">
+      <div class="brand">Bonus Salus</div>
+      <nav aria-label="Principal">
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#productos">Productos</a></li>
+          <li><a href="#quienes-somos">Quiénes somos</a></li>
+          <li><a href="#carrito" class="cart-badge" title="Carrito">Carrito (0)</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container hero-inner">
+      <div>
+        <h1>Bienestar natural, <br/>calidad comprobada</h1>
+        <p>Extractos, shampoos, cremas y ungüentos elaborados con ingredientes seleccionados. Confianza, seguridad y resultados.</p>
+        <a href="#productos" class="btn btn-primary" aria-label="Ver productos">Ver productos</a>
+      </div>
+      <div class="hero-card">
+        <strong>Compra con confianza</strong>
+        <div class="hero-bullets">
+          <div class="item"><span class="dot"></span><span>Pago seguro y protección al comprador</span></div>
+          <div class="item"><span class="dot"></span><span>Envíos a todo México</span></div>
+          <div class="item"><span class="dot"></span><span>Devolución en 7 días</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <main>
+    <!-- Más comprados -->
+    <section class="section" aria-labelledby="mas-comprados">
+      <div class="container">
+        <h2 id="mas-comprados">Más comprados</h2>
+        <p class="lead">Los favoritos de nuestros clientes.</p>
+        <div class="scroller" role="list">
+          <!-- Tarjeta 1 -->
+          <article class="card" role="listitem" data-desc="Extracto concentrado de hoja de guanábana, ideal para tu bienestar diario.">
+            <img src="https://images.unsplash.com/photo-1447078806655-40579c2520d6?q=80&w=1200&auto=format&fit=crop" alt="Extracto de guanábana">
+            <div class="card-body">
+              <span class="badge">Más comprado</span>
+              <div class="card-title">Extracto de Guanábana</div>
+              <div class="price">$249 MXN</div>
+              <div class="actions">
+                <a class="btn btn-solid" href="#">Agregar al carrito</a>
+                <a class="btn btn-outline" href="#">Leer más</a>
+              </div>
+            </div>
+          </article>
+          <!-- Tarjeta 2 -->
+          <article class="card" role="listitem" data-desc="Extracto de neem de alta pureza para cuidado integral.">
+            <img src="https://images.unsplash.com/photo-1494597706938-de2cd7341979?q=80&w=1200&auto=format&fit=crop" alt="Extracto de neem">
+            <div class="card-body">
+              <span class="badge">Más comprado</span>
+              <div class="card-title">Extracto de Neem</div>
+              <div class="price">$229 MXN</div>
+              <div class="actions">
+                <a class="btn btn-solid" href="#">Agregar al carrito</a>
+                <a class="btn btn-outline" href="#">Leer más</a>
+              </div>
+            </div>
+          </article>
+          <!-- Tarjeta 3 -->
+          <article class="card" role="listitem" data-desc="Fortalece y limpia con romero natural. Apto para uso diario.">
+            <img src="https://images.unsplash.com/photo-1541643600914-78b084683601?q=80&w=1200&auto=format&fit=crop" alt="Shampoo de romero">
+            <div class="card-body">
+              <span class="badge">Más comprado</span>
+              <div class="card-title">Shampoo de Romero</div>
+              <div class="price">$189 MXN</div>
+              <div class="actions">
+                <a class="btn btn-solid" href="#">Agregar al carrito</a>
+                <a class="btn btn-outline" href="#">Leer más</a>
+              </div>
+            </div>
+          </article>
+          <!-- Tarjeta 4 -->
+          <article class="card" role="listitem" data-desc="Hidratación y cuidado con propiedades del neem.">
+            <img src="https://images.unsplash.com/photo-1596755094514-f87e34085b2c?q=80&w=1200&auto=format&fit=crop" alt="Crema de neem">
+            <div class="card-body">
+              <span class="badge">Más comprado</span>
+              <div class="card-title">Crema de Neem</div>
+              <div class="price">$199 MXN</div>
+              <div class="actions">
+                <a class="btn btn-solid" href="#">Agregar al carrito</a>
+                <a class="btn btn-outline" href="#">Leer más</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Todos los productos -->
+    <section class="section" id="productos" aria-labelledby="todos">
+      <div class="container">
+        <h2 id="todos">Todos los productos</h2>
+        <p class="lead">Explora nuestro catálogo completo.</p>
+        <div class="grid">
+          <!-- 8 productos -->
+          <article class="card" data-desc="Fuente natural de nutrientes esenciales para tu día a día.">
+            <img src="https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=1200&auto=format&fit=crop" alt="Extracto de moringa">
+            <div class="card-body">
+              <div class="tag-row"><span class="badge">Top</span></div>
+              <div class="card-title">Extracto de Moringa</div>
+              <div class="price">$239 MXN</div>
+              <div class="actions"><a class="btn btn-solid" href="#">Agregar al carrito</a><a class="btn btn-outline" href="#">Leer más</a></div>
+            </div>
+          </article>
+          <article class="card" data-desc="Alivio y protección en una fórmula herbal tradicional.">
+            <img src="https://images.unsplash.com/photo-1514996937319-344454492b37?q=80&w=1200&auto=format&fit=crop" alt="Ungüento herbal">
+            <div class="card-body">
+              <div class="tag-row"><span class="badge">Nuevo</span></div>
+              <div class="card-title">Ungüento Herbal</div>
+              <div class="price">$159 MXN</div>
+              <div class="actions"><a class="btn btn-solid" href="#">Agregar al carrito</a><a class="btn btn-outline" href="#">Leer más</a></div>
+            </div>
+          </article>
+          <article class="card" data-desc="Jabón artesanal con ingredientes naturales para uso diario.">
+            <img src="https://images.unsplash.com/photo-1620563299454-6f8eeb47a021?q=80&w=1200&auto=format&fit=crop" alt="Jabón artesanal">
+            <div class="card-body">
+              <div class="card-title">Jabón Artesanal</div>
+              <div class="price">$89 MXN</div>
+              <div class="actions"><a class="btn btn-solid" href="#">Agregar al carrito</a><a class="btn btn-outline" href="#">Leer más</a></div>
+            </div>
+          </article>
+          <article class="card" data-desc="Infusión equilibrada para apoyar tu rutina detox.">
+            <img src="https://images.unsplash.com/photo-1556227831-0f96f1a550f5?q=80&w=1200&auto=format&fit=crop" alt="Té detox">
+            <div class="card-body">
+              <div class="card-title">Té Detox</div>
+              <div class="price">$129 MXN</div>
+              <div class="actions"><a class="btn btn-solid" href="#">Agregar al carrito</a><a class="btn btn-outline" href="#">Leer más</a></div>
+            </div>
+          </article>
+          <article class="card" data-desc="Aceite esencial multiusos, aromaterapia y cuidado personal.">
+            <img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?q=80&w=1200&auto=format&fit=crop" alt="Aceite esencial">
+            <div class="card-body">
+              <div class="card-title">Aceite Esencial</div>
+              <div class="price">$169 MXN</div>
+              <div class="actions"><a class="btn btn-solid" href="#">Agregar al carrito</a><a class="btn btn-outline" href="#">Leer más</a></div>
+            </div>
+          </article>
+          <article class="card" data-desc="Paquete combinado para una rutina de bienestar completa.">
+            <img src="https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop" alt="Pack bienestar">
+            <div class="card-body">
+              <div class="card-title">Pack Bienestar</div>
+              <div class="price">$499 MXN</div>
+              <div class="actions"><a class="btn btn-solid" href="#">Agregar al carrito</a><a class="btn btn-outline" href="#">Leer más</a></div>
+            </div>
+          </article>
+          <article class="card" data-desc="Hidratación profunda con ingredientes naturales.">
+            <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=1200&auto=format&fit=crop" alt="Crema corporal natural">
+            <div class="card-body">
+              <div class="card-title">Crema Corporal Natural</div>
+              <div class="price">$179 MXN</div>
+              <div class="actions"><a class="btn btn-solid" href="#">Agregar al carrito</a><a class="btn btn-outline" href="#">Leer más</a></div>
+            </div>
+          </article>
+          <article class="card" data-desc="Tratamiento capilar a base de romero para fortalecer el cabello">
+            <img src="https://images.unsplash.com/photo-1556226305-66c7fc1dbf39?q=80&w=1200&auto=format&fit=crop" alt="Kit capilar romero">
+            <div class="card-body">
+              <div class="card-title">Kit Capilar Romero</div>
+              <div class="price">$349 MXN</div>
+              <div class="actions"><a class="btn btn-solid" href="#">Agregar al carrito</a><a class="btn btn-outline" href="#">Leer más</a></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quiénes somos -->
+    <section class="section" id="quienes-somos" aria-labelledby="quienes">
+      <div class="container">
+        <h2 id="quienes">Quiénes somos</h2>
+        <div class="about">
+          <p class="mb-0">En Bonus Salus creemos en el poder de lo natural. Desarrollamos productos con ingredientes de calidad, procesos responsables y enfoque en resultados reales. Nuestra prioridad es tu bienestar y tu confianza.</p>
+          <div class="tag-row mt-12">
+            <span class="badge">Ingredientes naturales</span>
+            <span class="badge">Calidad comprobada</span>
+            <span class="badge">Hecho en México</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Carrito -->
+    <section class="section" id="carrito">
+      <div class="container">
+        <h2>Carrito</h2>
+        <p class="lead">Próximamente verás aquí los productos agregados, el total y el botón de pagar.</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Modal Leer más -->
+  <div class="modal-backdrop" id="product-modal" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="modal" role="document">
+      <header>
+        <h3 id="modal-title">Título del producto</h3>
+        <button class="close" id="modal-close" aria-label="Cerrar">×</button>
+      </header>
+      <div class="content">
+        <div>
+          <img id="modal-image" src="" alt="Imagen del producto">
+        </div>
+        <div>
+          <p class="desc" id="modal-desc">Descripción del producto. Aquí podrás ver ingredientes, modo de uso, y beneficios.</p>
+          <p class="price" id="modal-price">$0 MXN</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container footer-inner">
+      <div class="foot-grid">
+        <div>
+          <div class="brand" style="color:#fff">Bonus Salus</div>
+          <p style="margin:8px 0 0;color:#cbd5e1">Bienestar natural con confianza.</p>
+        </div>
+        <div>
+          <strong>Contacto</strong>
+          <p class="mt-8" style="color:#cbd5e1">WhatsApp: próximamente</p>
+          <p style="color:#cbd5e1">Correo: próximamente</p>
+        </div>
+        <div>
+          <strong>Información</strong>
+          <p class="mt-8" style="color:#cbd5e1">Envíos a todo México</p>
+          <p style="color:#cbd5e1">Devolución en 7 días</p>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">© 2025 Bonus Salus. Todos los derechos reservados.</div>
+  </footer>
+
+  <!-- JS externo -->
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
