@@ -1,0 +1,10 @@
+{
+  "headers": [
+    {
+      "source": "/assets/css/style.css",
+      "headers": [
+        { "key": "Cache-Control", "value": "no-store, max-age=0, s-maxage=0, must-revalidate" }
+      ]
+    }
+  ]
+}
